@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/register.css">
+    <title>Registrar</title>
+</head>
+
+<body>
+    <main class="container">
+        <header class="header-app">
+            <button class="btn-menu" onclick="btnMenu()">|||</button>
+            <div class="menu">
+                <button class="btn-close" onclick="btnClose()">X</button>
+                <img src="../assets/Rectangle 1.png" alt="" srcset="">
+                <p class="text-menu">Supermecado da sua <br>preferência</p>
+                <ul class="toggle-list">
+                    <a href="">
+                        <li><img src="../assets/coracao.png">Configurações</li>
+                    </a>
+                    <a href="">
+                        <li><img src="../assets/coracao.png">Meus Cartões</li>
+                    </a>
+                    <a href="">
+                        <li><img src="../assets/coracao.png">Meus Endereços</li>
+                    </a>
+                    <a href="">
+                        <li><img src="../assets/coracao.png">Meus Pedidos</li>
+                    </a>
+                    <a href="">
+                        <li><img src="../assets/coracao.png">Registros de Recebimentos</li>
+                    </a>
+                    <a href="">
+                        <li><img src="../assets/coracao.png">Produtos nào encontrados</li>
+                    </a>
+                    <a href="">
+                        <li><img src="../assets/coracao.png">Reclamações & Sugestões</li>
+                    </a>
+                    <a href="">
+                        <li><img src="../assets/coracao.png">Jornal Informativo</li>
+                    </a>
+                    <a href="">
+                        <li><img src="../assets/coracao.png">Ir pra Loja...</li>
+                    </a>
+                </ul>
+            </div>
+            <h1>Minha Conta</h1>
+        </header>
+        <section class="register-container">
+            <div>
+                <form action="/views/home.html" method="GET">
+                    <Label class="gambiarra">Nome:</Label>
+                    <input class="input-create" type="text" placeholder="Seu Nome">
+                    <label> CPF:</label>
+                    <input class="input-create" type="number" placeholder="Seu CPF">
+                    <label>Telefone (Fixo):</label>
+                    <input class="input-create" type="tel" placeholder="Seu Telefone">
+                    <label>Telefone (Cel):</label>
+                    <input class="input-create" type="tel" placeholder="Seu Telefone">
+                    <label> Email</label>
+                    <input class="input-create" type="email" placeholder="Seu Email">
+                    <label >Login de acesso:</label>
+                    <input class="input-create" type="text" placeholder="Seu Login">
+                    <label>Senha de acesso:</label>
+                    <input class="input-create" type="password" placeholder="Sua Senha">
+                    <button class="btn-create">Criar Conta</button>
+                </form>
+            </div>
+        </section>
+            <div class="container-footer">
+                <div class="menu-icons">
+                    <img src="../assets/home_work.png" alt="">
+                    <p>Favorites</p>
+                </div>
+                <div class="menu-icons">
+                    <img src="../assets/add_location_alt.png" alt="">
+                    <a href="../views/address.html"><p>Endereços</p></a>
+                </div>
+                <div class="menu-icons">
+                    <img src="../assets/cart.png" alt="">
+                    <p>Ir Loja</p>
+                </div>
+                <div class="menu-icons">
+                    <img src="../assets/notifi.png" alt="">
+                    <p>Meu Carrinho</p>
+                </div>
+            </div>
+    </main>
+    <script src="../script/register.js"></script>
+</body>
+
+</html>
