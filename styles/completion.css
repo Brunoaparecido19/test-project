@@ -70,9 +70,9 @@ section {
 .add-items {
     width: 50px;
     height: 20px;
-    background-color: #3ad0ee;
+    background-color: #007d96;
     border: none;
-    color: #fff;
+    color: #000;
     border-radius: 5px;
 }
 .delete{
