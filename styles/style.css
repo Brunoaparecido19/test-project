@@ -17,7 +17,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .logo {
     display: flex;
     flex-direction: column;
@@ -33,6 +32,7 @@ label {
 .show-password {
    padding-top: 20px;
    float: right;
+   cursor: pointer;
 }
 .input-login {
     display: block;

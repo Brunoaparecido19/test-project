@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+:root {
+    --shadow-menu: 5px 5px 15px 5px #000000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #CAEFF6;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-correct {
+    position: absolute;
+    margin-top: 22px;
+    margin-left: -50px;
+}
+
+.header-app {
+    width: 100%;
+    height: 70px;
+    background-color: #6200EE;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.header-app h1 {
+    margin-left: 50px;
+}
+
+.your-request {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 20px;
+}
+
+.your-request h1 {
+    font-size: 24px;
+    font-family: 'Sarala', sans-serif;
+}
+
+.infos-request {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.infos-request img {
+    margin-top: 10px;
+    margin-right: 5px;
+    width: 18px;
+    height: 20px;
+}
+
+.infos-request p {
+    background-color: #01758E;
+    width: 15px;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 100%;
+    font-weight: bold;
+    color: #CAEFF6;
+}
+
+.infos-request span {
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #2F0FF2;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.address-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.container-footer {
+    width: 100%;
+    height: 90px;
+    background-color: #6200EE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.menu-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.menu-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.address-container ul {
+    list-style: none;
+}
+
+.edit-address {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    margin-top: -20px;
+}
+
+.edit-address img {
+    margin-right: 10px;
+}
+
+.add-new-address {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.add-new-address a {
+    color: #0CCDF8;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.add-new-address img {
+    margin-right: 10px;
+    margin-bottom: -15px;
+}
+
+.withdraw {
+    margin-top: 50px;
+}
+
+.btn-pay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 191px;
+    height: 36px;
+    border: none;
+    border-radius: 4px;
+    background-color: #289DC2;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-pay a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.input-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-options label {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #250973;
+    letter-spacing: 2px;
+}
+
+input {
+    margin-top: 70px;
+}
+
+input[type=radio] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font: inherit;
+    color: #6200EE;
+    width: 1.1em;
+    height: 1.1em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+
+
+}
+
+input[type=radio]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    background-color: CanvasText;
+}
+
+input[type=radio]:checked::before {
+    transform: scale(1);
+}
+
+input[type=radio]:focus {
+    outline: max(2px, 0.15em) solid currentColor;
+    outline-offset: max(2px, 0.15em);
+    background-color: #6200EE;
+}
+
+.display-change {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    color: #250973;
+}
+.display-change h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    transform: scale(1.2);
+    margin-top: 20px;
+}
