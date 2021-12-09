@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/register.css">
-    <title>Registrar</title>
+    <link rel="stylesheet" href="../styles/menuOptions.css">
+    <title>Menu de Opções</title>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
                     <a href="./updateAddress.html">
                         <li><img src="../assets/coracao.png">Atualizar Endereço</li>
                     </a>
-                    <a href="./pay.html">
+                    <a href="./delivery.html">
                         <li><img src="../assets/coracao.png">Meus Pedidos</li>
                     </a>
                     <a href="">
@@ -47,42 +47,61 @@
                     </a>
                 </ul>
             </div>
-            <h1>Minha Conta</h1>
+            <h1>Menu de Opções</h1>
+            <input class="find-items" type="search" name="" id="" placeholder="Buscar">
+            <!-- Quando houver o click eu mostro o campo de pesquisa -->
+            <img onclick="findItems()" class="find" src="../assets/find.png">
         </header>
-        <section class="register-container">
-            <div>
-                <form action="/views/home.html" method="GET">
-                    <input class="input-create" type="text" placeholder=" Nome">
-                    <input class="input-create" type="number" placeholder="CPF">
-                    <input class="input-create" type="tel" placeholder="Telefone (Fixo)">
-                    <input class="input-create" type="tel" placeholder="Telefone (Cel)">
-                    <input class="input-create" type="email" placeholder="Email">
-                    <input class="input-create" type="text" placeholder="Digita login acesso ">
-                    <input class="input-create" type="password" placeholder="Digita senha de acesso">
-                    <button class="btn-create">Criar Conta</button>
-                </form>
+        <section>
+            <div class="row">
+                <div class="box">
+                    <div class="card-box">OPÇÃO-A</div>
+                </div>
+                <div class="box">
+                    <div class="card-box">OPÇÃO-B</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <div class="card-box">OPÇÃO-C</div>
+                </div>
+                <div class="box">
+                    <div class="card-box">OPÇÃO-D</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <div class="card-box">OPÇÃO-E</div>
+                </div>
+                <div class="box">
+                    <div class="card-box">OPÇÃO-F</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <div class="card-box">OPÇÃO-G</div>
+                </div>
+                <div class="box">
+                    <div class="card-box">OPÇÃO-H</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <div class="card-box">OPÇÃO-I</div>
+                </div>
+                <div class="box">
+                    <div class="card-box">OPÇÃO-J</div>
+                </div>
             </div>
         </section>
-            <div class="container-footer">
-                <div class="menu-icons">
-                    <img src="../assets/home_work.png" alt="">
-                    <p>Favorites</p>
-                </div>
-                <div class="menu-icons">
-                    <img src="../assets/add_location_alt.png" alt="">
-                    <a href="../views/address.html"><p>Endereços</p></a>
-                </div>
-                <div class="menu-icons">
-                    <img src="../assets/cart.png" alt="">
-                    <p>Ir Loja</p>
-                </div>
-                <div class="menu-icons">
-                    <img src="../assets/notifi.png" alt="">
-                    <p>Meu Carrinho</p>
-                </div>
+        <div class="container-footer">
+           
+            <div class="menu-icons">
+                <img src="../assets/notifi.png" alt="">
             </div>
+        </div>
     </main>
-    <script src="../script/register.js"></script>
+    <script src="../script/menu.js"></script>
 </body>
 
 </html>

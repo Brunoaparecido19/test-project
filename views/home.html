@@ -18,8 +18,8 @@
                 <img src="../assets/Rectangle 1.png" alt="" srcset="">
                 <p class="text-menu">Supermecado da sua <br>preferência</p>
                 <ul class="toggle-list">
-                    <a href="">
-                        <li><img src="../assets/coracao.png">Configurações</li>
+                    <a href="./menuOptions.html">
+                        <li><img src="../assets/coracao.png">Menu de Opções</li>
                     </a>
                     <a href="">
                         <li><img src="../assets/coracao.png">Meus Cartões</li>
@@ -61,7 +61,7 @@
                         <p class="promotion-product"><s>R$ 3,45</s></p>
                         <p class="price-product">R$ 3,00</p>
                         <div class="add-cart">
-                            <input class="add-items" type="number">
+                            <input class="add-items"  min="0" type="number" value="0">
                         </div>
                         <button class="btn-add">Adicionar</button>
                         <p class="promotion-msg">** Promoção Especial **</p>
@@ -76,7 +76,7 @@
                         <p class="promotion-product"><s>R$ 3,45</s></p>
                         <p class="price-product">R$ 3,00</p>
                         <div class="add-cart">
-                            <input class="add-items" type="number">
+                            <input class="add-items"  min="0" type="number" value="0">
                         </div>
                         <button class="btn-add">Adicionar</button>
                         <p class="promotion-msg">** Promoção Especial **</p>
@@ -91,7 +91,7 @@
                         <p class="promotion-product"><s>R$ 3,45</s></p>
                         <p class="price-product">R$ 3,00</p>
                         <div class="add-cart">
-                            <input class="add-items" type="number">
+                            <input class="add-items"  min="0" type="number" value="0">
                         </div>
                         <button class="btn-add">Adicionar</button>
                     </div>
@@ -105,7 +105,7 @@
                         <p class="promotion-product"><s>R$ 3,45</s></p>
                         <p class="price-product">R$ 3,00</p>
                         <div class="add-cart">
-                            <input class="add-items" type="number">
+                            <input class="add-items" min="0" type="number" value="0">
                         </div>
                         <button class="btn-add">Adicionar</button>
                     </div>
@@ -114,11 +114,11 @@
         </section>
             <div class="container-footer">
                 <div class="menu-icons">
-                    <img src="../assets/home_work.png" alt="">
+                    <img src="../assets/home_work.png">
                     <p>Favorites</p>
                 </div>
                 <div class="menu-icons">
-                    <img src="../assets/add_location_alt.png" alt="">
+                    <img id="btn-add" src="../assets/add_location_alt.png" alt="">
                     <a href="./address.html"><p>Endereços</p></a>
                 </div>
                 <div class="menu-icons">

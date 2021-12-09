@@ -15,7 +15,7 @@
     align-items: center;
 }
 section {
-    width: 100%;
+    width: 350px;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -109,12 +109,20 @@ section {
   display: flex;
   
 }
+.add-cart img{
+    margin-left: 50px;
+    margin-top: -37px;
+    width: 40px;
+    position: absolute;
+    cursor: pointer;
+
+}
 .add-items {
     width: 50px;
     height: 20px;
-    background-color: #229CC2;
+    background-color: #CAEFF6;
     border: none;
-    color: #fff;
+    color: #000000;
     border-radius: 5px;
 }
 
