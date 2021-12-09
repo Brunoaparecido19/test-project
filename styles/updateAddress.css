@@ -1,0 +1,137 @@
+:root {
+    --shadow-menu: 5px 5px 15px 5px #000000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-app {
+    width: 100%;
+    height: 58, 62px;
+    background-color: #6200EE;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.header-app h1 {
+    margin-left: 50px;
+}
+
+.btn-menu {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #6200EE;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+
+.btn-close {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #6200EE;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.address-container {
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.input-update {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 1px solid #0CCDF8;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    outline: none;
+    padding: 0 10px;
+
+}
+.aside {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 1px solid #0CCDF8;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    outline: none;
+    padding: 0 10px;
+
+}
+.stateAndCity {
+    display: flex;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    padding: 0 10px;
+}
+.UF {
+    margin-left: 30px;
+}
+.stateAndCity select{
+    margin-top: 10px;
+    border-style: none;
+    border-bottom: 1px solid #0CCDF8;
+}
+
+.btn-update {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 52px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 14px;
+    background-color: #289DC2;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.container-footer {
+    width: 100%;
+    height: 100%;
+    background-color: #6200EE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: #fff;
+    margin-top: 20px;
+}

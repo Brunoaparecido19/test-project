@@ -7,6 +7,10 @@
     margin: 0;
 }
 
+body {
+    height: 100vh;
+}
+
 .container {
     width: 100%;
     display: flex;
@@ -55,20 +59,10 @@
     cursor: pointer;
 }
 
-.register-container {
+.address-container {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin-top: 50px;
-}
-
-.gambiarra {
-    margin-top: 1px;
-}
-
-label {
-    font-size: 20px;
-    margin-top: 25px;
-    float: left;
 }
 
 .input-create {
@@ -102,7 +96,7 @@ label {
 
 .container-footer {
     width: 100%;
-    height: 60px;
+    height: 100%;
     background-color: #6200EE;
     display: flex;
     justify-content: space-between;
@@ -179,8 +173,8 @@ label {
     justify-content: flex-end;
     align-items: center;
     cursor: pointer;
-    margin-top: -20px;
-    padding: 2px;
+    margin-top: -30px;
+    padding: 5px;
 }
 
 .edit-address img {
